@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -57,4 +58,73 @@ body{
 }
 .conteudo{
     background-color: rgba(255,255,255,0.5);
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.titulo{
+	font-size: 48px;
+	padding-bottom: 8px;
+	letter-spacing: 5px;
+	font-family: "Poppins";
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.subtitulo{
+	font-size: 30px;
+	font-family: "Poppins";
+	font-weight: 200;
+	text-transform: uppercase;
+}
+.linha{
+	border: 1px solid rgb(255,255,255);
+	width: 500px;
+}
+.texto{
+	font-size:18px;
+	line-height: 22px;
+	font-family: "Nunito";
+	font-weight: 400;
+	text-align: justify;
+	width:500px
+}
+.meu-video{
+	width:300px;
+}
+.botao-comprar{
+	margin-top: 50px;
+	border: 3px double black;
+	font-size: 22px;
+	text-decoration:none;
+	padding: 15px;
+	width: 200px;
+	color:white;
+	background-color: black;
+	font-family: "Nunito";
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+.campo{
+	font-family: "Nunito";
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.formulario{
+	margin-top: 30px;
+	width: 500px;
+} 
+.label{
+	font-family: "Nunito";
+	font-size: 18px;
+	font-weight: 400;
+	display: block;
+	text-align: left;
 }
